@@ -1,0 +1,217 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 200Vh;
+    width: 95vw;
+    background-color: white;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 95vw;
+    justify-content: space-between;
+
+
+
+}
+
+.navbar button {
+    width: 220px;
+    height: 25px;
+    border-radius: 10px solid black;
+
+}
+
+
+
+
+.canadin {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+
+
+}
+
+.box1 {
+    position: relative;
+    height: 24vh;
+    width: 19vw;
+    background-color: rgb(255, 159, 243);
+}
+
+.box2 {
+    position: relative;
+    height: 24vh;
+    width: 19vw;
+    background-color: rgb(254, 202, 87);
+}
+
+.box3 {
+    position: relative;
+    height: 24vh;
+    width: 19vw;
+    background-color: rgb(255, 107, 107);
+}
+
+.box4 {
+    position: relative;
+    height: 24vh;
+    width: 19vw;
+    background-color: rgb(72, 219, 251);
+}
+
+.box5 {
+    position: relative;
+    height: 24vh;
+    width: 19vw;
+    background-color: rgb(29, 209, 161);
+}
+
+.box6 {
+    position: relative;
+    height: 24vh;
+    width: 19vw;
+    background-color: rgb(243, 104, 224);
+}
+
+.box7 {
+    position: relative;
+    height: 24vh;
+    width: 19vw;
+    background-color: rgb(255, 159, 67);
+}
+
+.box8 {
+    position: relative;
+    height: 24vh;
+    width: 19vw;
+    background-color: rgb(238, 82, 83);
+}
+
+.box9 {
+    position: relative;
+    height: 24vh;
+    width: 19vw;
+    background-color: rgb(10, 189, 227);
+}
+
+.box10 {
+    position: relative;
+    height: 24vh;
+    width: 19vw;
+    background-color: rgb(16, 172, 132);
+}
+
+.box11 {
+    position: relative;
+    height: 24vh;
+    width: 19vw;
+    background-color: rgb(0, 210, 211);
+}
+
+.box12 {
+    position: relative;
+    height: 24vh;
+    width: 19vw;
+    background-color: rgb(84, 160, 255);
+}
+
+.box13 {
+    position: relative;
+    height: 24vh;
+    width: 19vw;
+    background-color: rgb(95, 39, 205);
+}
+
+.box14 {
+    position: relative;
+    height: 24vh;
+    width: 19vw;
+    background-color: rgb(200, 214, 229);
+}
+
+.box15 {
+    position: relative;
+    height: 24vh;
+    width: 19vw;
+    background-color: rgb(87, 101, 116);
+}
+
+.box16 {
+    position: relative;
+    height: 24vh;
+    width: 19vw;
+    background-color: rgb(1, 163, 164);
+}
+
+.box17 {
+    position: relative;
+    height: 24vh;
+    width: 19vw;
+    background-color: rgb(46, 134, 222);
+}
+
+.box18 {
+    position: relative;
+    height: 24vh;
+    width: 19vw;
+    background-color: rgb(52, 31, 151);
+}
+
+.box19 {
+    position: relative;
+    height: 24vh;
+    width: 19vw;
+    background-color: rgb(131, 149, 167);
+}
+
+.box20 {
+    position: relative;
+    height: 24vh;
+    width: 19vw;
+    background-color: rgb(34, 47, 62);
+}
+
+h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 9px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+}
+
+@media screen and (max-width:280px) {
+    .navbar h1 {
+        display: none;
+    }
+
+    .navbar p {
+        display: none;
+    }
+
+    button {
+        width: 80vw;
+        font-size: 40px;
+        margin: auto;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width:600px) {
+    h2 {
+        display: none;
+
+    }
+}
